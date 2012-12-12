@@ -11,7 +11,7 @@ Usage
 -----
 To use the module, add it to your application config. After that you must add
 a method called "getLiquibasePath()" in the "Module.php" of every module
-which supplies Liquibase updates. A simple example follow:
+which supplies Liquibase updates. A simple example follows:
 
     namespace AwesomeModule;
 
@@ -24,7 +24,7 @@ which supplies Liquibase updates. A simple example follow:
     }
 
 As we are working with absolute paths here and Liquibase uses the full path
-to identify each change set, you have to tell it a local file path within all
+to identify each change set, you have to tell it a logical file path within all
 of your change set files:
 
     <databaseChangeLog
